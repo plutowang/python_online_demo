@@ -1,0 +1,14 @@
+{
+    // "python.linting.pylintArgs": [
+    //     "--load-plugins=pylint_django"
+    // ],
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django",
+        "--errors-only"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "autopep8",
+    "html.format.enable": true,
+    "autoDocstring.docstringFormat": "sphinx",
+}
