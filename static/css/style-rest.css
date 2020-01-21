@@ -1,0 +1,16 @@
+#code-input,
+#code-output {
+  resize: none;
+  font-size: 25px;
+}
+#code-name-input {
+  font-size: 25px;
+}
+textarea {
+  height: 500px;
+  font-size: 20px;
+  padding: 7px;
+  line-height: 29px;
+  border-radius: 3px;
+  border: 1px solid #aaaaaa;
+}

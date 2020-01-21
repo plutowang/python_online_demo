@@ -2,10 +2,9 @@ from rest_framework.viewsets import ModelViewSet
 from rest_framework.views import APIView  # DRF API View
 from rest_framework.response import Response  # DRF response object
 from rest_framework import status  # DRF response status
-from rest_framework.authentication import SessionAuthentication
+# from rest_framework.authentication import SessionAuthentication
 from django.shortcuts import render
 import subprocess  # run code
-from django.http import HttpResponse
 from django.db import models  # throw `ObjectDoseNotExist` exception
 from .models import Code
 from .serializers import CodeListSerializer, CodeSerializer
